@@ -22,7 +22,7 @@ public class StackQueueEx009 {
             if (current[1] == pq.peek()) {
                 answer++;
                 pq.poll();
-                if (current[0] == pq.peek()) {
+                if (current[0] == location) {
                     return answer;
                 }
             } else {
