@@ -2,6 +2,7 @@ package greedy;
 
 import java.util.*;
 
+// 큰 수 만들기
 public class PsEx028 {
     public String solution(String number, int k) {
         // 시간: O(n), 공간: O(n)
